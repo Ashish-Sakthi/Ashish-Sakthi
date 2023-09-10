@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Ashish-Sakthi
-- 👀 I’m interested in Virtual Reality and Kotlin Programming
+- 👀 I’m interested in Virtual Reality 
 - 🌱 I’m currently learning at Bannari Amman Institute Of Technology
 - 📫 Reach me at iamashishsakthi@gmail.com
 
