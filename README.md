@@ -9,7 +9,7 @@
  💼 Passionate UE5 Game Developer focused on bringing virtual experiences to life.<br>
  🎮 Into Game Development & Real-time 3D Graphics. <br>
  🔗 Portfolio: <a href="https://personal-portfolio-ashish.vercel.app/"> Click Here </a> <br><br>
- Gamer 🎮 | Developer 💻 | Creator 🚀
+ Gamer 🎮 | Game Developer 💻
 </div>
 
 <br>
