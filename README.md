@@ -1,79 +1,51 @@
-[![](https://visitcount.itsvg.in/api?id=Ashish-Sakthi&icon=0&color=0)](https://visitcount.itsvg.in)
+<a href="https://ashish-sakthi.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ashish-Sakthi/Ashish-Sakthi/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/Ashish-Sakthi/Ashish-Sakthi/main/assets/banner-light.svg" alt="Ashish Sakthi D, Gameplay Programmer. Now building Unleash The Avatar at Aeos Games." width="100%"></picture></a>
 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=2000&lines=Hi+There!+👋;+I'm+Ashish+Sakthi+D!;" alt="Typing SVG" />
-</h1>
+<p align="right"><a href="https://ashish-sakthi.vercel.app">Portfolio</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/iamashishsakthi/">LinkedIn</a> &nbsp;·&nbsp; <a href="mailto:iamashishsakthid@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://ashish-sakthi.vercel.app/Ashish-Sakthi-D-Resume.pdf">Resume</a></p>
 
-<div align="center"> 
- 🧑‍💻 I build immersive game worlds.<br>
- 💼 Passionate UE5 Game Developer focused on bringing virtual experiences to life.<br>
- 🎮 Into Game Development & Real-time 3D Graphics. <br>
- 🔗 Portfolio: <a href="https://personal-portfolio-ashish.vercel.app/"> Click Here </a> <br><br>
- Gamer 🎮 | Game Developer 💻
-</div>
+```cpp
+UCLASS()
+class UAshishSakthi : public UGameplayProgrammer
+{
+    GENERATED_BODY()
 
-<br>
+    UPROPERTY(VisibleAnywhere) FString Studio  = TEXT("Aeos Games");
+    UPROPERTY(VisibleAnywhere) FString Project = TEXT("Unleash The Avatar");
+    UPROPERTY(VisibleAnywhere) TArray<FName> Platforms = { "PS5", "PC" };
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/iamashishsakthi/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://github.com/Ashish-Sakthi" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" />
-  </a>
-</p>
+    // Combat.GAS  AI.Enemies  Systems.Progression  Platform.PS5  Perf.CPU_GPU
+    UPROPERTY(VisibleAnywhere) FGameplayTagContainer Focus;
+};
+```
 
----
+### Now building
 
-<h1 align="center">🛠️ My Toolkit</h1>
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=unrealengine" title="Unreal Engine"/>
-    <img src="https://skillicons.dev/icons?i=unity" title="Unity"/>
-    <img src="https://skillicons.dev/icons?i=cpp" title="C++"/>
-    <img src="https://skillicons.dev/icons?i=cs" title="C#"/>
-    <img src="https://skillicons.dev/icons?i=blender" title="Blender"/>
-    <img src="https://skillicons.dev/icons?i=visualstudio" title="Visual Studio"/>
-    <img src="https://skillicons.dev/icons?i=git" title="Git"/>
-</div>
+**[Unleash The Avatar](https://store.steampowered.com/app/4054220/Unleash_The_Avatar/)**, a soulslike set in Indian mythology for PlayStation 5 and PC. I work across most of the gameplay code and own the PS5 port and PC performance.
 
----
+[Trailer ↗](https://www.youtube.com/watch?v=0CTKnEcjESw) &nbsp; [Wishlist on Steam ↗](https://store.steampowered.com/app/4054220/Unleash_The_Avatar/)
 
-<h1 align="center">📈 GitHub Contributions Graph</h1>
-<p align="center">
-  <a href="https://github.com/Ashish-Sakthi">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashish-Sakthi&theme=github-dark" alt="GitHub Activity Graph" />
-  </a>
-</p>
+### Systems I build
 
----
+| Area | Work |
+| :-- | :-- |
+| **Combat** | Gameplay Ability System: abilities, AttributeSets, Execution Calculations, cues, parry and posture |
+| **Enemy AI** | Behavior Trees, EQS, perception and noise, scripted encounters, boss phases |
+| **Game systems** | Save / load, progression, inventory and loot tables, quests and dialogue |
+| **World** | World Partition streaming, triggers, switches and puzzles, Sequencer cinematics |
+| **Platform** | PlayStation 5 port, PC performance, DLSS / FSR / XeSS upscaling |
+| **Tooling** | Editor tools in C++ and Python, build automation, profiling with Unreal Insights |
 
-<h3 align="center">📊 GitHub Stats</h3>
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Ashish-Sakthi&theme=radical&show_icons=true&hide=prs&count_private=true" width="500" alt="GitHub Stats"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashish-Sakthi&layout=compact&theme=radical" width="300" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
+### Projects
 
----
+| Project | About | Built with |
+| :-- | :-- | :-- |
+| **[Top-Down RPG](https://ashish-sakthi.vercel.app/projects/img_rpg)** | Spells, levelling, Behavior Tree + EQS enemies | `UE5 · GAS` |
+| **[Third Person Shooter](https://ashish-sakthi.vercel.app/projects/img1)** | Pure C++ shooter with patrol / chase / search AI | `UE5 · C++` |
+| **[Obstacle Overrun](https://ashish-sakthi.vercel.app/projects/img2)** | Platforms, spinning bars, traps, timed jumps | `UE5 · C++` |
+| **[Toon Tanks](https://ashish-sakthi.vercel.app/projects/img3)** | Tanks vs. turrets that track and fire back | `UE5 · C++` |
+| **[Interactive Skills Enhancer](https://github.com/Ashish-Sakthi/Intractive-Skill-Enhancer)** | VR social-skills trainer. SIH 2024 finalist | `Unity · VR` |
 
-<h3 align="center">🔥 Streak Stats</h3>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ashish-Sakthi&theme=radical&hide_border=false" alt="GitHub Streak Stats" />
-</div>
+### Toolkit
 
----
-
-<h3 align="center">🐍 Contribution Snake</h3>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ashish-Sakthi/Ashish-Sakthi/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ashish-Sakthi/Ashish-Sakthi/output/github-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Ashish-Sakthi/Ashish-Sakthi/output/github-snake.svg" />
-  </picture>
-</p>
+**Engine** &nbsp; `Unreal Engine 5` `Blueprints` `GAS` `Behavior Trees` `EQS` `Niagara` `Sequencer` `World Partition` `Unity`<br>
+**Code** &nbsp; `C++` `C#` `Python` `Lua`<br>
+**Tools** &nbsp; `Unreal Insights` `Visual Studio` `Rider` `Git` `Blender`
